@@ -53,6 +53,7 @@ export class BoardComponent implements OnInit {
 
   winValidate(){
       for(let a=0;a<8;a++){
+        console.log(a);
         if(this.parentGrid[this.winArrays[a][0]-1] [3]==1 && this.parentGrid[this.winArrays[a][1] -1][3]==1 
           && this.parentGrid[this.winArrays[a][2]-1 ][3]==1){
             this.finalResult='blue win';

@@ -6,7 +6,6 @@ import { HeaderComponent } from './header/header.component';
 import { BoardComponent } from './board/board.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
-import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
@@ -19,7 +18,6 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserModule,
     MatCardModule,
     MatButtonModule,
-    MatTableModule,
     MatIconModule
   ],
   providers: [],
